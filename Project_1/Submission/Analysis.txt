@@ -1,0 +1,18 @@
+Assumption: I have not considered time complexity of 
+
+Time Complexity:
+Task0 - O(1) 
+Reason: Accessing the any element by index willw be at constant time.
+
+Task1 - O(n) + O(n) => O(n)
+Reason: We are looping through all elements of calls and texts. So, it depends on number of inputs. If elements in texts/calls increases then time complexity increases proportionally
+
+Task2 - O(n)
+Reason:  We are looping through all elements of calls and texts. So, it depends on number of inputs. If elements in texts/calls increases then time complexity increases proportionally
+
+Task3 - O(n) + O(nlogn) => o(nlogn)
+Reason: We are looping calls which consitutes for O(n) but soring typically merge sort whose complexity is O(nlogn). So, O(nlogn) + O(n) which is equavivalent to O(nlogn) for higher number of n  
+
+Task4 - O(n)+O(n)+O(n)+O(nlogn) => O(nlogn)
+Reason: there are 3 loops and sorted function. For bigger n time complexity is equivalent to O(nlogn)
+

@@ -1,0 +1,10 @@
+I have added a set in the linked list class to keep track of distinct elements.
+
+Once we have distinct elements for both te linked list's we compare both the sets
+and get union and intersection.
+
+Time complexity for looping through all the elements in a set is dependent on number
+of elements(n) in the linked list. So, it's O(n)
+
+Space complexity is O(n) because Set is being used and we are inserting all distinct elements of
+linked list to it. If all n elements are distinct then worst case space complexity is O(n)

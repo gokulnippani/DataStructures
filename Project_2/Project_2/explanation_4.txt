@@ -1,0 +1,11 @@
+1. Get all users from the group.
+2. If user is in list of users then return true
+3. If user doesn't exist thn get all child groups for the current group.
+4. Recursively check in all child group to check the existence of the user. If exist return true.
+
+Since, given problem form a tree. Total groups that needs to be checked in O(d*w) where d is depth of
+tree and w is width of tree. In each group we iterate the users. So, O(n) comprisions needs to be done
+where n is number of users.
+Time Complexity - O(dw) + O(n)
+
+Space complexity O(dw)

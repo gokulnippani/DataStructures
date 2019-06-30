@@ -1,0 +1,7 @@
+Recursion logic. Looping through all in the folders to fin matching files.
+
+Time Complexity is O(d*n). Folders can have n number of folders in it. We have to loop through each and every folder.
+
+We can represent folder structure as a tree where parent being the root directory. So, time complexity is also dependent on depth(d) of the tree.
+
+Space Complexity is O(1) because we are not storing anything.

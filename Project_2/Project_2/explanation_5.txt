@@ -1,0 +1,7 @@
+Created a new class which holds block chain info to which added new method called add_block.
+It also has HashChain property which holds hash of all the blocks.
+
+Time complexity of adding block is O(1) because we get the previous hash from last element of HashChain
+property.
+
+Space Complexity is dependent on number of blocks (n). So, it's O(n)

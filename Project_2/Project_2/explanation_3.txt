@@ -1,0 +1,7 @@
+Dictionary is used to find the frequency. Then tuple is used to sort with frequency.
+Since we need to have access to both the freq and char tuple is used here.
+Space Complexity is dependent on number of elements(n). So, O(n)
+
+The time complexity of the Huffman algorithm is O(nlogn).
+Using a heap to store the weight of each tree, each iteration requires O(logn) time to determine the cheapest weight and insert the new weight.
+There are O(n) iterations, one for each item where n being number of elements.

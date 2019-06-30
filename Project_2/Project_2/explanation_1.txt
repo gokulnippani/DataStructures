@@ -1,0 +1,10 @@
+For LRU Cache, I have used doubly linked list which is backed by a dictionary <key, Node>.
+Since, Doubly linked list is used it provides easy way to add a new element to tail and remove element from head.
+
+Core logic is to update the tail with provided key if it's set or get.
+
+Time complexity  is O(1) because we are performing operations on head and tail for
+deletion and insertion respectively and dictionary will provide us access to node element without looping through all the keys.
+
+Space Complexity is O(n). Both doubly linked list and dictionary are dependent on number of elements in Cache.
+
