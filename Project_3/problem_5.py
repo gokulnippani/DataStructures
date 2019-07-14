@@ -49,6 +49,7 @@ class Trie(object):
         node = self.root
         not_found = False
         temp_word = ''
+        self.word_list = []
 
         for a in list(suffix):
             if not node.children.get(a):
@@ -78,4 +79,14 @@ wordList = [
 for word in wordList:
     MyTrie.insert(word)
 
-MyTrie.suffixes('trig')
+output = MyTrie.suffixes('trig') # ['ger', 'onometry']
+print(output)
+
+output = MyTrie.suffixes('')
+print(output) # input array
+
+output = MyTrie.suffixes('abc')
+print(output) # invalid prefix
+
+output = MyTrie.suffixes('trigonometry')
+print(output) # Valid Prefix but no suggestions.

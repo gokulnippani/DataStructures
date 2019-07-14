@@ -1,0 +1,10 @@
+Used dictionary to hold count of 0,1,2. We count it in single traversal.
+
+After traversing, depending on the count of 0,1,2 we modify the input array.
+
+Time Complexity:
+Traversal to count takes O(n) and modifying input array takes O(n) where n is number of
+elements in input array. For larger n, time complexity is O(n).
+
+Space Complexity:
+O(1). We are not using any additional space. We use dictionary which is independent of input elements.

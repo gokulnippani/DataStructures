@@ -1,0 +1,7 @@
+For this problem, I have used recursion to solve this problem. The basic idea of this problem
+is to check if square of the mid element is equal to provided value. If, it is true then mid
+element is square root. Else we will reduce the data size by taking right half or lest half.
+
+Time Complexity is O(log n) where n is input value.
+
+Space Complexity is O(1) because algorithm is independent of input value.

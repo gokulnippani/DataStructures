@@ -1,0 +1,8 @@
+We split the path where "/" is the delimiter. Individual elements after split will
+be considered as trie node.
+
+Time Complexity:
+Insert and search costs O(n) where n is number of elements in an array after performing split
+
+Space Complexity:
+O(p * N) where N is number of nodes in Trie, p is size of array after splitting input path.

@@ -1,0 +1,8 @@
+If array is not empty we initialize min and max with first element of array. We traverse
+the array and compare and update min and max values.
+
+Time Complexity:
+O(n) because in single traversal we find min and max
+
+Space Complexity:
+O(1) because we are not initializing any variables.

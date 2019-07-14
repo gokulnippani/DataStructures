@@ -1,0 +1,11 @@
+In have used python's sort method. Once we have sorted array, in order to have max sum maximum
+number needs to be in most significant bit. So, we create two numbers such that MSB is occupied
+ by highest numbers.
+
+Time Complexity:
+Sorting takes O(n log (n)) and rearranging takes O(n) where n is number of elements in input array.
+So, Total complexity is O(n log (n)) + O (n) which is is equivalent to  O(n log (n)) for higher
+values of n.
+
+Space Complexity:
+Sorting and arranging the elements depends on total number of input elements. O(n)

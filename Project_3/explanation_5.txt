@@ -1,0 +1,9 @@
+We recursively traverse the Trie to find the suggestions.
+
+Time Complexity:
+We need to search all possibilities from a given node it takes O(w*h) where w is width and h is
+height in  a trie.
+
+Space Complexity:
+O(n) where d is depth of tree and n is total number of leafs. Since, we are returning
+list of suggestions, it  depends on number of words with provided prefix.
