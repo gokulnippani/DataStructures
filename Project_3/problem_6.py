@@ -9,7 +9,7 @@ def get_min_max(ints):
 
     if len(ints) == 0:
         print('Empty Array')
-        return
+        return None
     if len(ints) == 1:
         return (ints[0],ints[0])
     max = ints[0]
@@ -38,4 +38,4 @@ print(get_min_max(l))
 print ("Pass" if ((9, 9) == get_min_max(l)) else "Fail")
 
 l = []
-print(get_min_max(l))
+print ("Pass" if (None == get_min_max(l)) else "Fail")

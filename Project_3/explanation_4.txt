@@ -1,10 +1,13 @@
-Used dictionary to hold count of 0,1,2. We count it in single traversal.
-
-After traversing, depending on the count of 0,1,2 we modify the input array.
+Create an auxiliary array with input array size and initialize it with 1
+initialize int variable with 0
+initialize int variable with ize of input array
+run a for loop for all elements in an input array
+if current element is 0, update value in output array at index 0, and increment it  by 1
+if current element is 2, update value in output array at index 2, and decrement it  by 1
+if 1, do nothing
 
 Time Complexity:
-Traversal to count takes O(n) and modifying input array takes O(n) where n is number of
-elements in input array. For larger n, time complexity is O(n).
+Single traversal O(n), where n is number of elements
 
 Space Complexity:
-O(1). We are not using any additional space. We use dictionary which is independent of input elements.
+O(n). Since we are creating auxiliary array with size equal to input array.

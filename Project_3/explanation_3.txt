@@ -1,4 +1,4 @@
-In have used python's sort method. Once we have sorted array, in order to have max sum maximum
+Used merg sort to sort the array. Once we have sorted array, in order to have max sum maximum
 number needs to be in most significant bit. So, we create two numbers such that MSB is occupied
  by highest numbers.
 

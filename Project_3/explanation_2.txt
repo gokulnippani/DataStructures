@@ -4,4 +4,4 @@ index is returned. Else we will reduce the data size by taking right half or les
 
 Time Complexity is O(log n) where n is input value.
 
-Space Complexity is O(1) because algorithm is independent of input value.
+Space Complexity is O(n) because of call stack by recursion.
